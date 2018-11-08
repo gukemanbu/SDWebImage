@@ -10,7 +10,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/SDWebImage)
 [![codecov](https://codecov.io/gh/SDWebImage/SDWebImage/branch/master/graph/badge.svg)](https://codecov.io/gh/SDWebImage/SDWebImage)
 
-这个库提供了一个支持缓存的异步图像下载器。方便起见，我们为这此 UI 元素 `UIImageView`， `UIButton`， `MKAnnotationView` 等添加了分类。
+这个库提供了一个支持缓存的异步图像下载器。方便起见，我们为这些 UI 元素 `UIImageView`， `UIButton`， `MKAnnotationView` 等添加了分类。
 
 ## 功能特点
 
@@ -18,16 +18,16 @@
 - [x] 图片异步下载
 - [x] 异步内存+磁盘缓存和自动缓存过期处理
 - [x] 后台解压图片
-- [x] 同一个URL不会被多次下载
-- [x] 无效的url不会被反复重试
+- [x] 同一个 URL 不会被多次下载
+- [x] 无效的 url 不会被反复重试
 - [x] 不会阻塞主线程
 - [x] 高效！
 - [x] 使用 GCG 和 ARC
 
 ## 支持的图片格式
 
-- UIImage支持的图片格式（JPEG，PNG，……），包括GIF
-- WebP格式，包动WebP动画（使用`WebP`子集）
+- UIImage支持的图片格式（JPEG，PNG，……），包括 GIF
+- WebP 格式，包动 WebP 动画（使用`WebP`子集）
 
 ## 使用要求
 

@@ -10,19 +10,19 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/SDWebImage)
 [![codecov](https://codecov.io/gh/SDWebImage/SDWebImage/branch/master/graph/badge.svg)](https://codecov.io/gh/SDWebImage/SDWebImage)
 
-这个库提供了一个支持缓存的异步图像下载器。方便起见，我们为这此UI元素 `UIImageView`， `UIButton`， `MKAnnotationView` 等添加了分类。
+这个库提供了一个支持缓存的异步图像下载器。方便起见，我们为这此 UI 元素 `UIImageView`， `UIButton`， `MKAnnotationView` 等添加了分类。
 
-## Features
+## 功能特点
 
-- [x] Categories for `UIImageView`, `UIButton`, `MKAnnotationView` adding web image and cache management
-- [x] An asynchronous image downloader
-- [x] An asynchronous memory + disk image caching with automatic cache expiration handling
-- [x] A background image decompression
-- [x] A guarantee that the same URL won't be downloaded several times
-- [x] A guarantee that bogus URLs won't be retried again and again
-- [x] A guarantee that main thread will never be blocked
-- [x] Performances!
-- [x] Use GCD and ARC
+- [x] `UIImageView`, `UIButton`, `MKAnnotationView` 的类别，用于添加网络图片和缓存管理
+- [x] 图片异步下载
+- [x] 异步内存+磁盘缓存和自动缓存过期处理
+- [x] 后台解压图片
+- [x] 同一个URL不会被多次下载
+- [x] 无效的url不会被反复重试
+- [x] 不会阻塞主线程
+- [x] 高效！
+- [x] 使用 GCG 和 ARC
 
 ## Supported Image Formats
 

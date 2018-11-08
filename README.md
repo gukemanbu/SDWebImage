@@ -14,7 +14,7 @@
 
 ## 功能特点
 
-- [x] `UIImageView`, `UIButton`, `MKAnnotationView` 的类别，用于添加网络图片和缓存管理
+- [x] `UIImageView`, `UIButton`, `MKAnnotationView` 的分类，用于添加网络图片和缓存管理
 - [x] 图片异步下载
 - [x] 异步内存+磁盘缓存和自动缓存过期处理
 - [x] 后台解压图片
@@ -24,18 +24,18 @@
 - [x] 高效！
 - [x] 使用 GCG 和 ARC
 
-## Supported Image Formats
+## 支持的图片格式
 
-- Image formats supported by UIImage (JPEG, PNG, ...), including GIF
-- WebP format, including animated WebP (use the `WebP` subspec)
+- UIImage支持的图片格式（JPEG，PNG，……），包括GIF
+- WebP格式，包动WebP动画（使用`WebP`子集）
 
-## Requirements
+## 使用要求
 
-- iOS 7.0 or later
-- tvOS 9.0 or later
-- watchOS 2.0 or later
-- macOS 10.9 or later
-- Xcode 7.3 or later
+- iOS 7.0 及以上
+- tvOS 9.0 及以上
+- watchOS 2.0 及以上
+- macOS 10.9 及以上
+- Xcode 7.3 及以上
 
 #### Backwards compatibility
 

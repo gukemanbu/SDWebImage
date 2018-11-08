@@ -12,7 +12,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/rs/SDWebImage)
 [![codecov](https://codecov.io/gh/rs/SDWebImage/branch/master/graph/badge.svg)](https://codecov.io/gh/rs/SDWebImage)
 
-This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like `UIImageView`, `UIButton`, `MKAnnotationView`.
+这个库提供了一个支持缓存的异步图像下载器。方便起见，我们为这此UI元素添加了分类`UIImageView`， `UIButton`， `MKAnnotationView`。
 
 ## Features
 
